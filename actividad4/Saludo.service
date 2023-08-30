@@ -1,0 +1,10 @@
+[Unit]
+Description=Saludo y Fecha Service
+After=network.target
+
+[Service]
+Type=simple
+ExecStart="/home/allenrovas/Documentos/UNIVERSIDAD/2023 Segundo Semestre/Sistemas Operativos I/so1_actividades_202004745/actividad4/Saludo.sh"
+
+[Install]
+WantedBy=default.target
